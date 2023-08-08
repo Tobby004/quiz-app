@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="timer">Time Remaining: 00:00</div>  <!-- Moved timer to the top -->
+        <div id="quiz-container">
+            <h2 id="question">Question Text</h2>
+            <div id="choices">
+                <!-- Choices will be inserted here from JS -->
+            </div>
+            <div id="nav-buttons">
+                <button id="prev">Previous</button>
+                <button id="next">Next</button>
+            </div>
+        </div>
+        <div id="result">
+            <h2 id="score">Your Score: 0</h2>
+            <div id="correct-answers">
+                <!-- Correct answers will be displayed here -->
+            </div>
+        </div>
+        <div id="progress-container">
+            <div id="progress"></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
